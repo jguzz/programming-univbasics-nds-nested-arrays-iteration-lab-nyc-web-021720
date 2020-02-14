@@ -29,6 +29,7 @@ def find_greater_pair(src)
     else 
       largest[row_index] = src[row_index][1]
     end
+    row_index += 1
   end
   largest
 end
